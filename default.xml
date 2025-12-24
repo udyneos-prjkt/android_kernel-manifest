@@ -18,4 +18,16 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" remote="aosp" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" remote="aosp" />
+
+ <project path="build/make" name="platform/build/make" groups="pdk" />
+  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk"  />
+  <project path="external/mkbootimg" name="platform/external/mkbootimg" groups="pdk"  />
+  <project path="external/avb" name="platform/external/avb" groups="pdk"  />
+
+  <project path="device/realme/RMX2195" 
+           name="device_realme_RMX2195" 
+           remote="dev" 
+           revision="android-11" />
+  
 </manifest>
