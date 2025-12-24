@@ -5,7 +5,7 @@
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="sm4250-kernel" name="android_kernel_realme_RMX2195" clone-depth="1" remote="dev" revision="lineage-20" />
+  <project path="sm4250" name="android_kernel_realme_RMX2195" clone-depth="1" remote="dev" revision="lineage-20" />
   
   <project path="AnyKernel3" name="AnyKernel3" remote="dev" revision="RMX2195" />
   
