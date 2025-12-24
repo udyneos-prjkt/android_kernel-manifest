@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
-  <remote name="dev" fetch="https://github.com/sm4250-Dev" revision="lineage-20" />
+  <remote name="dev" fetch="https://github.com/sm4250-Dev"  />
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
