@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
-  <remote name="carlodandan" fetch="https://github.com/carlodandan" revision="lineage-21" />
+  <remote name="dev" fetch="https://github.com/sm4250-Dev" revision="lineage-20" />
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="sm6225" name="android_kernel_realme_sm6225" clone-depth="1" remote="carlodandan" />
+  <project path="sm4250" name="android_kernel_realme_RMX2195" clone-depth="1" remote="dev" />
   
-  <project path="AnyKernel3" name="AnyKernel3" remote="carlodandan" revision="sm6225" />
+  <project path="AnyKernel3" name="AnyKernel3" remote="dev" revision="RMX2195" />
   
   <project path="build" name="kernel/build" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" />
