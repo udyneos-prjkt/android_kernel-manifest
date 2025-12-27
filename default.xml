@@ -7,7 +7,7 @@
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
   <project path="lancelot" name="android_kernel_xiaomi_lancelot" clone-depth="1" remote="dev" revision="sukisu" />
-  <project path="clang" name="proton-clang" remote="kd" clone-depth="1" /> 
+  <project path="clang" name="proton-clang" remote="kd" clone-depth="1" revision="master" /> 
   <project path="Anykernel3" name="AnyKernel3" remote="dev" revision="lancelot" /> 
 
   
