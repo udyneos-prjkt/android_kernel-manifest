@@ -2,12 +2,14 @@
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
   <remote name="dev" fetch="https://github.com/udyneos-prjkt"  />
-
+ <remote name="kd" fetch="https://github.com/kdrag0n"  />
+  
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="lancelot" name="android_kernel_xiaomi_lancelot" clone-depth="1" remote="dev" revision="yukisu" />
-  
+  <project path="lancelot" name="android_kernel_xiaomi_lancelot" clone-depth="1" remote="dev" revision="sukisu" />
+  <project path="clang" name="proton-clang" remote="kd" clone-depth="1" /> 
   <project path="Anykernel3" name="AnyKernel3" remote="dev" revision="lancelot" /> 
+
   
   <project path="build" name="kernel/build" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" />
@@ -19,3 +21,5 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" remote="aosp" />
 </manifest>
+
+  
